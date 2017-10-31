@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350FA4DF1FA315DD0097EE24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FA4DE1FA315DD0097EE24 /* AppDelegate.m */; };
+		350FA4E21FA315DD0097EE24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FA4E11FA315DD0097EE24 /* main.m */; };
+		350FA4E51FA315DD0097EE24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FA4E41FA315DD0097EE24 /* ViewController.m */; };
+		350FA4E71FA315DD0097EE24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350FA4E61FA315DD0097EE24 /* Assets.xcassets */; };
+		350FA4EA1FA315DD0097EE24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350FA4E81FA315DD0097EE24 /* Main.storyboard */; };
+		350FA4F41FA316550097EE24 /* SFImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FA4F31FA316550097EE24 /* SFImageButton.m */; };
+		350FA4F71FA3167F0097EE24 /* RecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FA4F61FA3167F0097EE24 /* RecordButton.m */; };
+		350FA5011FA319BE0097EE24 /* ViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FA5001FA319BE0097EE24 /* ViewFrameAccessor.m */; };
+		350FA5061FA34A650097EE24 /* input_voice_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 350FA5051FA34A650097EE24 /* input_voice_n.png */; };
+		350FA5081FA34AA10097EE24 /* input_voice_n@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 350FA5071FA34AA10097EE24 /* input_voice_n@2x.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		350FA4DA1FA315DD0097EE24 /* IPRecordAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPRecordAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		350FA4DD1FA315DD0097EE24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		350FA4DE1FA315DD0097EE24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		350FA4E11FA315DD0097EE24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		350FA4E31FA315DD0097EE24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		350FA4E41FA315DD0097EE24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		350FA4E61FA315DD0097EE24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		350FA4E91FA315DD0097EE24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		350FA4EB1FA315DD0097EE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350FA4F21FA316550097EE24 /* SFImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFImageButton.h; sourceTree = "<group>"; };
+		350FA4F31FA316550097EE24 /* SFImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFImageButton.m; sourceTree = "<group>"; };
+		350FA4F51FA3167F0097EE24 /* RecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordButton.h; sourceTree = "<group>"; };
+		350FA4F61FA3167F0097EE24 /* RecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordButton.m; sourceTree = "<group>"; };
+		350FA4FE1FA319BE0097EE24 /* FrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameAccessor.h; sourceTree = "<group>"; };
+		350FA4FF1FA319BE0097EE24 /* ViewFrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFrameAccessor.h; sourceTree = "<group>"; };
+		350FA5001FA319BE0097EE24 /* ViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFrameAccessor.m; sourceTree = "<group>"; };
+		350FA5051FA34A650097EE24 /* input_voice_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = input_voice_n.png; sourceTree = "<group>"; };
+		350FA5071FA34AA10097EE24 /* input_voice_n@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "input_voice_n@2x.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350FA4D71FA315DD0097EE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		350FA4D11FA315DD0097EE24 = {
+			isa = PBXGroup;
+			children = (
+				350FA4DC1FA315DD0097EE24 /* IPRecordAnimationDemo */,
+				350FA4DB1FA315DD0097EE24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		350FA4DB1FA315DD0097EE24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				350FA4DA1FA315DD0097EE24 /* IPRecordAnimationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		350FA4DC1FA315DD0097EE24 /* IPRecordAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				350FA4DD1FA315DD0097EE24 /* AppDelegate.h */,
+				350FA4DE1FA315DD0097EE24 /* AppDelegate.m */,
+				350FA4E31FA315DD0097EE24 /* ViewController.h */,
+				350FA4E41FA315DD0097EE24 /* ViewController.m */,
+				350FA4F51FA3167F0097EE24 /* RecordButton.h */,
+				350FA4F61FA3167F0097EE24 /* RecordButton.m */,
+				350FA4F21FA316550097EE24 /* SFImageButton.h */,
+				350FA4F31FA316550097EE24 /* SFImageButton.m */,
+				350FA4FC1FA319A90097EE24 /* 3rd */,
+				350FA4E61FA315DD0097EE24 /* Assets.xcassets */,
+				350FA5051FA34A650097EE24 /* input_voice_n.png */,
+				350FA5071FA34AA10097EE24 /* input_voice_n@2x.jpeg */,
+				350FA4E81FA315DD0097EE24 /* Main.storyboard */,
+				350FA4EB1FA315DD0097EE24 /* Info.plist */,
+				350FA4E01FA315DD0097EE24 /* Supporting Files */,
+			);
+			path = IPRecordAnimationDemo;
+			sourceTree = "<group>";
+		};
+		350FA4E01FA315DD0097EE24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				350FA4E11FA315DD0097EE24 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		350FA4FC1FA319A90097EE24 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				350FA4FD1FA319BE0097EE24 /* FrameAccessor */,
+			);
+			name = 3rd;
+			sourceTree = "<group>";
+		};
+		350FA4FD1FA319BE0097EE24 /* FrameAccessor */ = {
+			isa = PBXGroup;
+			children = (
+				350FA4FE1FA319BE0097EE24 /* FrameAccessor.h */,
+				350FA4FF1FA319BE0097EE24 /* ViewFrameAccessor.h */,
+				350FA5001FA319BE0097EE24 /* ViewFrameAccessor.m */,
+			);
+			path = FrameAccessor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		350FA4D91FA315DD0097EE24 /* IPRecordAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350FA4EE1FA315DD0097EE24 /* Build configuration list for PBXNativeTarget "IPRecordAnimationDemo" */;
+			buildPhases = (
+				350FA4D61FA315DD0097EE24 /* Sources */,
+				350FA4D71FA315DD0097EE24 /* Frameworks */,
+				350FA4D81FA315DD0097EE24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPRecordAnimationDemo;
+			productName = IPRecordAnimationDemo;
+			productReference = 350FA4DA1FA315DD0097EE24 /* IPRecordAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		350FA4D21FA315DD0097EE24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LY;
+				TargetAttributes = {
+					350FA4D91FA315DD0097EE24 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ET468ENYPG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 350FA4D51FA315DD0097EE24 /* Build configuration list for PBXProject "IPRecordAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 350FA4D11FA315DD0097EE24;
+			productRefGroup = 350FA4DB1FA315DD0097EE24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				350FA4D91FA315DD0097EE24 /* IPRecordAnimationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		350FA4D81FA315DD0097EE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350FA4E71FA315DD0097EE24 /* Assets.xcassets in Resources */,
+				350FA5081FA34AA10097EE24 /* input_voice_n@2x.jpeg in Resources */,
+				350FA4EA1FA315DD0097EE24 /* Main.storyboard in Resources */,
+				350FA5061FA34A650097EE24 /* input_voice_n.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		350FA4D61FA315DD0097EE24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350FA4F71FA3167F0097EE24 /* RecordButton.m in Sources */,
+				350FA4E51FA315DD0097EE24 /* ViewController.m in Sources */,
+				350FA4E21FA315DD0097EE24 /* main.m in Sources */,
+				350FA4F41FA316550097EE24 /* SFImageButton.m in Sources */,
+				350FA4DF1FA315DD0097EE24 /* AppDelegate.m in Sources */,
+				350FA5011FA319BE0097EE24 /* ViewFrameAccessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		350FA4E81FA315DD0097EE24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350FA4E91FA315DD0097EE24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		350FA4EC1FA315DD0097EE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		350FA4ED1FA315DD0097EE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		350FA4EF1FA315DD0097EE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ET468ENYPG;
+				INFOPLIST_FILE = IPRecordAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LY.IPRecordAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		350FA4F01FA315DD0097EE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ET468ENYPG;
+				INFOPLIST_FILE = IPRecordAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LY.IPRecordAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		350FA4D51FA315DD0097EE24 /* Build configuration list for PBXProject "IPRecordAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350FA4EC1FA315DD0097EE24 /* Debug */,
+				350FA4ED1FA315DD0097EE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350FA4EE1FA315DD0097EE24 /* Build configuration list for PBXNativeTarget "IPRecordAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350FA4EF1FA315DD0097EE24 /* Debug */,
+				350FA4F01FA315DD0097EE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 350FA4D21FA315DD0097EE24 /* Project object */;
+}
