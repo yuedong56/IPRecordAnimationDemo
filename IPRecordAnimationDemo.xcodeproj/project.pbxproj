@@ -17,6 +17,7 @@
 		350FA5011FA319BE0097EE24 /* ViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 350FA5001FA319BE0097EE24 /* ViewFrameAccessor.m */; };
 		350FA5061FA34A650097EE24 /* input_voice_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 350FA5051FA34A650097EE24 /* input_voice_n.png */; };
 		350FA5081FA34AA10097EE24 /* input_voice_n@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 350FA5071FA34AA10097EE24 /* input_voice_n@2x.jpeg */; };
+		35876DC01FB2F15D00D34BCC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35876DBF1FB2F15D00D34BCC /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		350FA5001FA319BE0097EE24 /* ViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFrameAccessor.m; sourceTree = "<group>"; };
 		350FA5051FA34A650097EE24 /* input_voice_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = input_voice_n.png; sourceTree = "<group>"; };
 		350FA5071FA34AA10097EE24 /* input_voice_n@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "input_voice_n@2x.jpeg"; sourceTree = "<group>"; };
+		35876DBF1FB2F15D00D34BCC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35876DC01FB2F15D00D34BCC /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +59,7 @@
 			children = (
 				350FA4DC1FA315DD0097EE24 /* IPRecordAnimationDemo */,
 				350FA4DB1FA315DD0097EE24 /* Products */,
+				35876DBE1FB2F15D00D34BCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +117,14 @@
 				350FA5001FA319BE0097EE24 /* ViewFrameAccessor.m */,
 			);
 			path = FrameAccessor;
+			sourceTree = "<group>";
+		};
+		35876DBE1FB2F15D00D34BCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35876DBF1FB2F15D00D34BCC /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +357,7 @@
 				350FA4F01FA315DD0097EE24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

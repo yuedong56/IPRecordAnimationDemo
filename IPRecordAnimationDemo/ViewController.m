@@ -10,6 +10,14 @@
 #import "RecordButton.h"
 #import "FrameAccessor.h"
 
+@interface ViewController ()
+
+
+@end
+
+
+
+
 @implementation ViewController
 
 - (void)viewDidLoad
@@ -37,4 +45,13 @@
 }
 
 
+
 @end
+
+
+
+
+
+
+
+
