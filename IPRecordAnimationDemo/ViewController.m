@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "RecordButton.h"
 #import "FrameAccessor.h"
+#import "IPAudioPlayView.h"
 
 @interface ViewController ()
 
@@ -32,6 +33,11 @@
     
     button.target = self;
     button.action = @selector(recordButtonAction:);
+    
+    
+    
+    IPAudioPlayView *audioPlayView = [[IPAudioPlayView alloc] initWithFrame:NSMakeRect(10, 10, 400, 30)];
+    [self.view addSubview:audioPlayView];
 }
 
 - (void)recordButtonAction:(RecordButton *)button
